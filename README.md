@@ -56,6 +56,8 @@ python instagram_scraper.py
  
 خروجی:
 پایگاه داده:کامنت‌ها در جدول InstagramComments ذخیره می‌شوند. ساختار جدول:
+
+
 CREATE TABLE InstagramComments (
     PostURL NVARCHAR(500),
     Username NVARCHAR(100),
